@@ -2,14 +2,12 @@
 layout: project
 type: project
 image: img/BlockSlidePuzzle/game_logo.png
-title: "Idle Arcade Restaurant Tycoon Game"
+title: "Number Slide Puzzle"
 date: 2022
 published: true
 labels:
   - C#
   - Unity
-  - Optimization
-  - Performance
   - Animations
   - GitHub
   - Mathematics

@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/ColorBallSort3D/game_logo.PNG
+image: img/ColorBallSort3D/game_logo.png
 title: "Color Ball Puzzle Sorting Game"
 date: 2021
 published: true
