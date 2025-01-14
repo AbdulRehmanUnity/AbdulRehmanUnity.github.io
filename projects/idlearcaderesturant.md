@@ -41,5 +41,4 @@ This process required a balance of creativity, technical expertise, and optimiza
 
 {% gist 9defa1fb3f4eb593ba5fa9eacedca960 %}
  
-Source: <a href="https://play.google.com/store/apps/details?id=com.playspare.watersort3d&hl=en">Google Play Store</a>
-Source: <a href="https://apps.apple.com/us/app/color-water-sort-puzzle-3d/id1566301002">Apple App Store</a>
+Source: <a href="https://apkpure.com/idle-restaurant-tycoon-games/com.playspare.hyperidlerestaurant">Google Play Store</a>
