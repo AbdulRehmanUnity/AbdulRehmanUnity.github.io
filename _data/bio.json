@@ -1,120 +1,142 @@
 {
-  "basics": {
-    "name": "Abdul Rehman",
-    "label": "Game Developer",
-    "picture": "https://github.com/AbdulRehmanUnity/AbdulRehmanUnity.github.io/blob/main/img/Abdul.JPG",
-    "email": "abdulrehmanyaseen92@gmail.com",
-    "phone": "+92-307-4118815",
-    "website": "https://AbdulRehmanUnity.github.io",
-    "summary": ""summary": "Dynamic and creative Game Developer with 7+ years of experience producing robust, scalable code for engaging and immersive gaming experiences. Proficient in Unity and C#, with a strong background in problem-solving, optimizing performance, and implementing innovative gameplay features. Passionate about pushing the boundaries of interactive entertainment and delivering high-quality projects on time.",
-    "location": { "address": "", "postalCode": "54000", "city": "Lahore", "countryCode": "PK", "region": "Punjab" },
-    "profiles": [
-      { "network": "GitHub", "username": "AbdulRehmanUnity", "url": "https://github.com/AbdulRehmanUnity" },
-      { "network": "LinkedIn", "username": "abdul-rehman", "url": "https://www.linkedin.com/in/abdul-rehman-0b81a6126" }
+    "basics": {
+        "name": "Abdul Rehman",
+        "label": "Game Developer",
+        "picture": "https://github.com/AbdulRehmanUnity/AbdulRehmanUnity.github.io/blob/main/img/Abdul.JPG",
+        "email": "abdulrehmanyaseen92@gmail.com",
+        "phone": "+92-307-4118815",
+        "website": "https://AbdulRehmanUnity.github.io",
+        "summary": "Dynamic and creative Game Developer with 7+ years of experience producing robust, scalable code for engaging and immersive gaming experiences. Proficient in Unity and C#, with a strong background in problem-solving, optimizing performance, and implementing innovative gameplay features. Passionate about pushing the boundaries of interactive entertainment and delivering high-quality projects on time.",
+        "location": {
+            "address": "",
+            "postalCode": "54000",
+            "city": "Lahore",
+            "countryCode": "PK",
+            "region": "Punjab"
+        },
+        "profiles": [
+            {
+                "network": "GitHub",
+                "username": "AbdulRehmanUnity",
+                "url": "https://github.com/AbdulRehmanUnity"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "abdul-rehman",
+                "url": "https://www.linkedin.com/in/abdul-rehman-0b81a6126"
+            }
+        ]
+    },
+    "interests": [
+        {
+            "name": "Creative Design"
+        },
+        {
+            "name": "Gaming"
+        },
+        {
+            "name": "Art & Animation"
+        },
+        {
+            "name": "Robotics"
+        },
+        {
+            "name": "Programing"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Languages and Frameworks",
+            "keywords": [
+                "C#",
+                "C++",
+                "Python",
+                ".Net"
+            ]
+        },
+        {
+            "name": "Tools",
+            "keywords": [
+                "Unity",
+                "AndroidStudio",
+                "GitHub",
+                "VisualStudio"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Lahore Leads University, Lahore",
+            "area": "Bachelor Computer Science",
+            "studyType": "B.S",
+            "startDate": "2013",
+            "endDate": "2017",
+            "courses": []
+        }
+    ],
+    "work": [
+        {
+            "company": "Game District",
+            "position": "Senior Game Developer",
+            "website": "https://gamedistrict.co/",
+            "startDate": "2019-08-21",
+            "endDate": "2022-10-31",
+            "summary": "Senior Game Developer in a Team (Playspare)",
+            "highlights": [
+                "Led development and prototyping of mobile game features, mentoring junior developers",
+                "Built and delivered full-fledged game solutions, ensuring quality and performance",
+                "Collaborated with a team to design and create engaging gameplay experiences"
+            ]
+        },
+        {
+            "company": "Desert Game Studio",
+            "position": "Lead Game Developer",
+            "website": "https://www.desertgamestudio.com/",
+            "startDate": "2022-11-12",
+            "endDate": "2024-10-31",
+            "summary": "Lead Developer of a mini Team",
+            "highlights": [
+                "I have led development teams, creating prototypes for junior developers and delivering complete game projects",
+                "My focus is on crafting interactive and engaging mobile game experiences."
+            ]
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "P-1 Games",
+            "website": "",
+            "position": "Game Developer",
+            "startDate": "2025-01-01",
+            "endDate": "Present",
+            "summary": "",
+            "highlights": [
+                ""
+            ]
+        }
+    ],
+    "awards": [
+        {
+            "title": "3 Star Performance",
+            "date": "2020",
+            "awarder": "Game District",
+            "summary": ""
+        },
+        {
+            "title": "Super Performance",
+            "date": "2021",
+            "awarder": "Game District",
+            "summary": ""
+        },
+        {
+            "title": "Best Leading Award",
+            "date": "2023",
+            "awarder": "Desert Game Studio",
+            "summary": ""
+        }
+    ],
+    "references": [
+        {
+            "name": "Available upon request"
+        }
     ]
-  },
-  "interests": [
-    { "name": "Creative Design" },
-    { "name": "Gaming" },
-    { "name": "Art & Animation" },
-    { "name": "Robotics" },
-    { "name": "Programing" }
-  ],
-  "skills": [
-    {
-      "name": "Languages and Frameworks",
-      "keywords": [ "C#", "C++", "Python", ".Net"]
-    },
-    {
-      "name": "Tools",
-      "keywords": [ "Unity", "AndroidStudio", "GitHub", "VisualStudio" ]
-    }
-  ],
-  "education": [
-    {
-      "institution": "Lahore Leads University, Lahore",
-      "area": "Bachelor Computer Science",
-      "studyType": "B.S",
-      "startDate": "2013",
-      "endDate": "2017",
-      "courses": [
-      ]
-    }
-  ],
-  "work": [
-    {
-      "company": "Game District",
-      "position": "Senior Game Developer",
-      "website": "https://gamedistrict.co/",
-      "startDate": "2019-08-21",
-      "endDate": "2022-10-31",
-      "summary": "Senior Game Developer in a Team (Playspare)",
-      "highlights": [
-        "Led development and prototyping of mobile game features, mentoring junior developers",
-        "Built and delivered full-fledged game solutions, ensuring quality and performance",
-        "Collaborated with a team to design and create engaging gameplay experiences"
-      ]
-    },
-    {
-      "company": "Desert Game Studio",
-      "position": "Lead Game Developer",
-      "website": "https://www.desertgamestudio.com/",
-      "startDate": "2022-11-12",
-      "endDate": "2024-10-31",
-      "summary": "Lead Developer of a mini Team",
-      "highlights": [
-        "I have led development teams, creating prototypes for junior developers and delivering complete game projects",
-        "My focus is on crafting interactive and engaging mobile game experiences."
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "P-1 Games",
-      "website": "",
-      "position": "Game Developer",
-      "startDate": "2025-01-01",
-      "endDate": "Present",
-      "summary": "",
-      "highlights": [
-        ""
-      ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        ""
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "3 Star Performance",
-      "date": "2020",
-      "awarder": "Game District",
-      "summary": ""
-    },
-    {
-      "title": "Super Performance",
-      "date": "2021",
-      "awarder": "Game District",
-      "summary": ""
-    },
-    {
-      "title": "Best Leading Award",
-      "date": "2023",
-      "awarder": "Desert Game Studio",
-      "summary": ""
-    }
-  ],
-  "references": [
-    {
-      "name": "Available upon request"
-    }
-  ]
 }
