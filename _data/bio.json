@@ -24,7 +24,7 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C#", "C++", "Python",]
+      "keywords": [ "C#", "C++", "Python", ".Net",]
     },
     {
       "name": "Tools",
@@ -108,7 +108,7 @@
     }
     {
       "title": "Best Leading Award",
-      "date": "2024",
+      "date": "2023",
       "awarder": "Desert Game Studio",
       "summary": ""
     }
