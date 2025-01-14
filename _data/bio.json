@@ -6,12 +6,11 @@
     "email": "abdulrehmanyaseen92@gmail.com",
     "phone": "+92-307-4118815",
     "website": "https://AbdulRehmanUnity.github.io",
-    "summary": "Dynamic and creative Game Developer with 7+ years of experience producing robust, scalable code for engaging and immersive gaming experiences. Proficient in Unity and C#, with a strong background in problem-solving, optimizing performance, and implementing innovative gameplay features.",
-              "Passionate about pushing the boundaries of interactive entertainment and delivering high-quality projects on time.",
+    "summary": ""summary": "Dynamic and creative Game Developer with 7+ years of experience producing robust, scalable code for engaging and immersive gaming experiences. Proficient in Unity and C#, with a strong background in problem-solving, optimizing performance, and implementing innovative gameplay features. Passionate about pushing the boundaries of interactive entertainment and delivering high-quality projects on time.",
     "location": { "address": "", "postalCode": "54000", "city": "Lahore", "countryCode": "PK", "region": "Punjab" },
     "profiles": [
-      { "network": "GitHub", "username": "AbdulRehmanUnity", "url": "http://github.com/changeme" },
-      { "network": "LinkedIn", "username": "abdul-rehman", "url": "http://linkedin.com/in/changeme" },
+      { "network": "GitHub", "username": "AbdulRehmanUnity", "url": "https://github.com/AbdulRehmanUnity" },
+      { "network": "LinkedIn", "username": "abdul-rehman", "url": "https://www.linkedin.com/in/abdul-rehman-0b81a6126" }
     ]
   },
   "interests": [
@@ -24,7 +23,7 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C#", "C++", "Python", ".Net",]
+      "keywords": [ "C#", "C++", "Python", ".Net"]
     },
     {
       "name": "Tools",
@@ -105,7 +104,7 @@
       "date": "2021",
       "awarder": "Game District",
       "summary": ""
-    }
+    },
     {
       "title": "Best Leading Award",
       "date": "2023",
