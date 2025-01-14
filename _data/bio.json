@@ -27,8 +27,8 @@
       "keywords": [ "C#", "C++", "Python",]
     },
     {
-      "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "name": "Tools",
+      "keywords": [ "Unity", "AndroidStudio", "GitHub", "VisualStudio" ]
     }
   ],
   "education": [
