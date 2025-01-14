@@ -2,23 +2,24 @@
   "basics": {
     "name": "Abdul Rehman",
     "label": "Game Developer",
-    "picture": "https://avatars.githubusercontent.com/u/62423838?s=400&u=d86037e8b985bada801cce463e6c60391cb80ea5&v=4",
+    "picture": "https://github.com/AbdulRehmanUnity/AbdulRehmanUnity.github.io/blob/main/img/Abdul.JPG",
     "email": "abdulrehmanyaseen92@gmail.com",
     "phone": "+92-307-4118815",
-    "website": "https://AbdulRehmanUnity/AbdulRehmanUnity.github.io",
-    "summary": "I completed my B.S. in Computer Science in 2017. Since then, I have gained professional experience in Unity development, specializing in creating engaging mobile games and solutions using C# and Unity tools.",
+    "website": "https://AbdulRehmanUnity.github.io",
+    "summary": "Dynamic and creative Game Developer with 7+ years of experience producing robust, scalable code for engaging and immersive gaming experiences. Proficient in Unity and C#, with a strong background in problem-solving, optimizing performance, and implementing innovative gameplay features.",
+              "Passionate about pushing the boundaries of interactive entertainment and delivering high-quality projects on time.",
     "location": { "address": "", "postalCode": "54000", "city": "Lahore", "countryCode": "PK", "region": "Punjab" },
     "profiles": [
-      { "network": "github", "username": "AbdulRehmanUnity", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "abdul-rehman", "url": "http://linkedin.com/in/changeme" },
+      { "network": "GitHub", "username": "AbdulRehmanUnity", "url": "http://github.com/changeme" },
+      { "network": "LinkedIn", "username": "abdul-rehman", "url": "http://linkedin.com/in/changeme" },
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
+    { "name": "Creative Design" },
+    { "name": "Gaming" },
+    { "name": "Art & Animation" },
     { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Programing" }
   ],
   "skills": [
     {
@@ -33,8 +34,8 @@
   "education": [
     {
       "institution": "Lahore Leads University, Lahore",
-      "area": "Computer Science",
-      "studyType": "B.S.",
+      "area": "Bachelor Computer Science",
+      "studyType": "B.S",
       "startDate": "2013",
       "endDate": "2017",
       "courses": [
@@ -51,8 +52,8 @@
       "summary": "Senior Game Developer in a Team (Playspare)",
       "highlights": [
         "Led development and prototyping of mobile game features, mentoring junior developers",
-    "Built and delivered full-fledged game solutions, ensuring quality and performance",
-    "Collaborated with a team to design and create engaging gameplay experiences"
+        "Built and delivered full-fledged game solutions, ensuring quality and performance",
+        "Collaborated with a team to design and create engaging gameplay experiences"
       ]
     },
     {
@@ -61,7 +62,7 @@
       "website": "https://www.desertgamestudio.com/",
       "startDate": "2022-11-12",
       "endDate": "2024-10-31",
-      "summary": "",
+      "summary": "Lead Developer of a mini Team",
       "highlights": [
         "I have led development teams, creating prototypes for junior developers and delivering complete game projects",
         "My focus is on crafting interactive and engaging mobile game experiences."
@@ -69,6 +70,17 @@
     }
   ],
   "volunteer": [
+    {
+      "organization": "P-1 Games",
+      "website": "",
+      "position": "Game Developer",
+      "startDate": "2025-01-01",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": [
+        ""
+      ]
+    },
     {
       "organization": "",
       "website": "",
@@ -79,33 +91,26 @@
       "highlights": [
         ""
       ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
-      ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "3 Star Performance",
+      "date": "2020",
+      "awarder": "Game District",
+      "summary": ""
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Super Performance",
+      "date": "2021",
+      "awarder": "Game District",
+      "summary": ""
+    }
+    {
+      "title": "Best Leading Award",
+      "date": "2024",
+      "awarder": "Desert Game Studio",
+      "summary": ""
     }
   ],
   "references": [
