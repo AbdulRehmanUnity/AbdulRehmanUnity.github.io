@@ -1,18 +1,16 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
-    "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "name": "Abdul Rehman",
+    "label": "Game Developer",
+    "picture": "https://avatars.githubusercontent.com/u/62423838?s=400&u=d86037e8b985bada801cce463e6c60391cb80ea5&v=4",
+    "email": "abdulrehmanyaseen92@gmail.com",
+    "phone": "+92-307-4118815",
+    "website": "https://AbdulRehmanUnity/AbdulRehmanUnity.github.io",
+    "summary": "I completed my B.S. in Computer Science in 2017. Since then, I have gained professional experience in Unity development, specializing in creating engaging mobile games and solutions using C# and Unity tools.",
+    "location": { "address": "", "postalCode": "54000", "city": "Lahore", "countryCode": "PK", "region": "Punjab" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "github", "username": "AbdulRehmanUnity", "url": "http://github.com/changeme" },
+      { "network": "linkedin", "username": "abdul-rehman", "url": "http://linkedin.com/in/changeme" },
     ]
   },
   "interests": [
@@ -25,7 +23,7 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "C#", "C++", "Python",]
     },
     {
       "name": "Toolsets/OS",
@@ -34,52 +32,52 @@
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "institution": "Lahore Leads University, Lahore",
+      "area": "Computer Science",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
+      "startDate": "2013",
+      "endDate": "2017",
       "courses": [
       ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "company": "Game District",
+      "position": "Senior Game Developer",
+      "website": "https://gamedistrict.co/",
+      "startDate": "2019-08-21",
+      "endDate": "2022-10-31",
+      "summary": "Senior Game Developer in a Team (Playspare)",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Led development and prototyping of mobile game features, mentoring junior developers",
+    "Built and delivered full-fledged game solutions, ensuring quality and performance",
+    "Collaborated with a team to design and create engaging gameplay experiences"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
+      "company": "Desert Game Studio",
+      "position": "Lead Game Developer",
+      "website": "https://www.desertgamestudio.com/",
+      "startDate": "2022-11-12",
+      "endDate": "2024-10-31",
       "summary": "",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "I have led development teams, creating prototypes for junior developers and delivering complete game projects",
+        "My focus is on crafting interactive and engaging mobile game experiences."
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "organization": "",
+      "website": "",
+      "position": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        ""
       ]
     },
     {
