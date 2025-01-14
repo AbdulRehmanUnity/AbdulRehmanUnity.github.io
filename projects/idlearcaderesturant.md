@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/IdleArcadeResturant/game logo.png
+image: img/IdleArcadeResturant/game_logo.png
 title: "Idle Arcade Restaurant Tycoon Game"
 date: 2022
 published: true
@@ -18,27 +18,51 @@ summary: "In this project, I implemented responsive controls for intuitive playe
 
 <img class="img-fluid" src="../img/IdleArcadeResturant/game_Cover.png">
 
-The development process of Idle Restaurant Tycoon involved creating an engaging idle game experience while optimizing performance and scalability. Here's an overview of the key aspects:
+<h1>Game Development Process for Idle Restaurant Tycoon</h1>
 
-Game Design
-Core Gameplay Mechanics: Designed intuitive controls for managing orders, upgrading restaurants, and serving customers.
-Progression System: Created upgradeable elements such as new employees, food items, and customer areas, ensuring a rewarding progression loop.
-Offline Play: Implemented robust offline functionality for players to earn income even while inactive.
-Technical Implementation
-Optimization: Ensured smooth performance across various devices by optimizing assets, scripts, and scene management.
-Scalable Architecture: Designed modular systems for restaurant upgrades, employee AI, and customer behavior.
-Dynamic Controls: Developed fluid controls for character movement, order management, and interaction mechanics.
-Visuals and UI
-Art Integration: Implemented assets with visually appealing animations and transitions.
-User Interface: Designed an intuitive and accessible UI to manage upgrades, monitor earnings, and interact with game elements.
-Additional Features
-Global Competition: Added features for leaderboards and competitions to engage players worldwide.
-Feedback Systems: Incorporated in-game feedback to guide players through upgrades and tasks.
-Challenges Addressed
-Balancing game mechanics to ensure fair progression.
-Implementing AI for staff and customer behaviors to create a lively restaurant environment.
-This process required a balance of creativity, technical expertise, and optimization to deliver an immersive idle tycoon experience. Let me know if you'd like further details on specific development areas!
+<h2>Game Design</h2>
+<h3>Core Gameplay Mechanics</h3>
+<p>Intuitive controls for managing orders, upgrading restaurants, and serving customers.</p>
 
-{% gist 9defa1fb3f4eb593ba5fa9eacedca960 %}
- 
+<h3>Progression System</h3>
+<p>Upgradeable elements like employees, food items, and customer areas to maintain player engagement and provide a rewarding progression loop.</p>
+
+<h3>Offline Play</h3>
+<p>Robust offline functionality allowing players to earn income while inactive.</p>
+
+<h2>Technical Implementation</h2>
+<h3>Optimization</h3>
+<p>Optimized assets, scripts, and scene management to ensure smooth performance across devices.</p>
+
+<h3>Scalable Architecture</h3>
+<p>Modular systems for restaurant upgrades, employee AI, and customer behavior to support game scalability.</p>
+
+<h3>Dynamic Controls</h3>
+<p>Smooth and fluid controls for character movement, order management, and interactions.</p>
+
+<h2>Visuals and UI</h2>
+<h3>Art Integration</h3>
+<p>Visually appealing animations and transitions implemented for an immersive gaming experience.</p>
+
+<h3>User Interface</h3>
+<p>Designed an intuitive UI for easy management of upgrades, earnings, and game interactions.</p>
+
+<h2>Additional Features</h2>
+<h3>Global Competition</h3>
+<p>Leaderboards and competitions to engage players globally and add competitive elements.</p>
+
+<h3>Feedback Systems</h3>
+<p>Incorporated in-game feedback systems to help guide players through upgrades and tasks.</p>
+
+<h2>Challenges Addressed</h2>
+<h3>Game Balancing</h3>
+<p>Ensured balanced progression to maintain fairness and avoid frustrating players.</p>
+
+<h3>AI Implementation</h3>
+<p>Developed AI for staff and customer behavior to create a lively restaurant atmosphere.</p>
+
+<h1>Conclusion</h1>
+<p>This development process involved a blend of creative design, technical expertise, and performance optimization to create an immersive and scalable idle tycoon game experience.</p>
+
+
 Source: <a href="https://apkpure.com/idle-restaurant-tycoon-games/com.playspare.hyperidlerestaurant">Google Play Store</a>

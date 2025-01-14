@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/BlockSlidePuzzle/game logo.png
+image: img/BlockSlidePuzzle/game_logo.png
 title: "Idle Arcade Restaurant Tycoon Game"
 date: 2022
 published: true
@@ -13,33 +13,9 @@ labels:
   - Animations
   - GitHub
   - Mathematics
-summary: "In this project, I implemented responsive controls for intuitive player interactions, enabling smooth movement for managing customer orders and kitchen tasks. Focused on optimization, ensuring seamless performance across devices, even in complex gameplay scenarios. Designed scalable systems for restaurant upgrades, staff management, and customer interactions. Incorporated dynamic gameplay mechanics, like serving VIP customers and competing globally, while ensuring robust backend systems for offline progression. Prioritized user experience with efficient resource management and engaging progression loops."
+summary: "The Number Slide Puzzle Game offers two modes: Classic and Picture. In Classic mode, players rearrange numbered tiles to form the correct sequence, while in Picture mode, they solve puzzles by arranging image pieces into a complete picture. Both modes offer a fun, engaging challenge that requires strategic thinking and problem-solving skills."
 ---
 
 <img class="img-fluid" src="../img/BlockSlidePuzzle/game_Cover.png">
 
-The development process of Idle Restaurant Tycoon involved creating an engaging idle game experience while optimizing performance and scalability. Here's an overview of the key aspects:
-
-Game Design
-Core Gameplay Mechanics: Designed intuitive controls for managing orders, upgrading restaurants, and serving customers.
-Progression System: Created upgradeable elements such as new employees, food items, and customer areas, ensuring a rewarding progression loop.
-Offline Play: Implemented robust offline functionality for players to earn income even while inactive.
-Technical Implementation
-Optimization: Ensured smooth performance across various devices by optimizing assets, scripts, and scene management.
-Scalable Architecture: Designed modular systems for restaurant upgrades, employee AI, and customer behavior.
-Dynamic Controls: Developed fluid controls for character movement, order management, and interaction mechanics.
-Visuals and UI
-Art Integration: Implemented assets with visually appealing animations and transitions.
-User Interface: Designed an intuitive and accessible UI to manage upgrades, monitor earnings, and interact with game elements.
-Additional Features
-Global Competition: Added features for leaderboards and competitions to engage players worldwide.
-Feedback Systems: Incorporated in-game feedback to guide players through upgrades and tasks.
-Challenges Addressed
-Balancing game mechanics to ensure fair progression.
-Implementing AI for staff and customer behaviors to create a lively restaurant environment.
-This process required a balance of creativity, technical expertise, and optimization to deliver an immersive idle tycoon experience. Let me know if you'd like further details on specific development areas!
-
-{% gist 9defa1fb3f4eb593ba5fa9eacedca960 %}
- 
-Source: <a href="https://apkpure.com/idle-restaurant-tycoon-games/com.playspare.hyperidlerestaurant">Google Play Store</a>
-Source: <a href="https://apps.apple.com/us/app/color-water-sort-puzzle-3d/id1566301002">Apple App Store</a>
+The Number Slide Puzzle Game provides a dual gameplay experience through its Classic and Picture modes. Classic mode challenges players to rearrange numbered tiles, while Picture mode displays an image that players must restore by sliding the tiles. The game includes various difficulty levels, user-friendly controls, and smooth transitions. Implemented using Unity, it features responsive touch or drag-and-drop mechanics. Puzzle levels are randomly generated to provide endless playability, with a timer for added challenge. The game is optimized for both mobile and tablet devices, ensuring a smooth, engaging user experience.
