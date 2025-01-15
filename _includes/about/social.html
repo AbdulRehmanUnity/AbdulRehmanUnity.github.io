@@ -1,4 +1,4 @@
-<a href="{{ include.url }}" {% if include.url contains 'mailto:' %}{% else %}target="_blank"{% endif %}>
+<a href="{{ include.url }}" {% unless include.url contains 'mailto:' %}target="_blank"{% endunless %}>
   <svg class="tf-social">
     <use xlink:href="{{ '/img/bootstrap-icons.svg' | prepend: site.baseurl }}#{{- include.name -}}"/>
   </svg>
