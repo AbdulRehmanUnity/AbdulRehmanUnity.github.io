@@ -2,7 +2,8 @@
     "basics": {
         "name": "Abdul Rehman",
         "label": "Game Developer",
-        "picture": "https://github.com/AbdulRehmanUnity/AbdulRehmanUnity.github.io/blob/main/img/Abdul.JPG",
+        //"picture": "https://github.com/AbdulRehmanUnity/AbdulRehmanUnity.github.io/blob/main/img/Abdul.JPG",
+        "picture": "../img/Abdul.jpg",
         "email": "abdulrehmanyaseen92@gmail.com",
         "phone": "+92-307-4118815",
         "website": "https://AbdulRehmanUnity.github.io",
