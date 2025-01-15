@@ -2,14 +2,14 @@
     "basics": {
         "name": "Abdul Rehman",
         "label": "Game Developer",
-        //"picture": "https://github.com/AbdulRehmanUnity/AbdulRehmanUnity.github.io/blob/main/img/Abdul.JPG",
-        "picture": "../img/Abdul.jpg",
+        "picture": "https://github.com/AbdulRehmanUnity.github.io/blob/main/img/Abdul.JPG",
+        //"picture": "../img/Abdul.jpg",
         "email": "abdulrehmanyaseen92@gmail.com",
         "phone": "+92-307-4118815",
         "website": "https://AbdulRehmanUnity.github.io",
         "summary": "Dynamic and creative Game Developer with 7+ years of experience producing robust, scalable code for engaging and immersive gaming experiences. Proficient in Unity and C#, with a strong background in problem-solving, optimizing performance, and implementing innovative gameplay features. Passionate about pushing the boundaries of interactive entertainment and delivering high-quality projects on time.",
         "location": {
-            "address": "",
+            "addra": "",
             "postalCode": "54000",
             "city": "Lahore",
             "countryCode": "PK",
@@ -59,9 +59,9 @@
             "name": "Tools",
             "keywords": [
                 "Unity",
-                "AndroidStudio",
+                "Android Studio",
                 "GitHub",
-                "VisualStudio"
+                "Visual Studio"
             ]
         }
     ],
