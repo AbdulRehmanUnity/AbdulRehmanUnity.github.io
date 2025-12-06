@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Projects | Abdul Rehman | Professional Portfolio">
+    <meta name="description" content="Projects by Abdul Rehman - Senior Game Developer/Producer">
+    <meta name="image" content="img/Abdul.JPG">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Abdul Rehman | Professional Portfolio">
+    <meta property="og:url" content="https://AbdulRehmanUnity.github.io/projects.html">
+    <meta property="og:title" content="Projects | Abdul Rehman | Professional Portfolio">
+    <meta property="og:description" content="Projects by Abdul Rehman - Senior Game Developer/Producer">
+    <meta property="og:image" content="img/Abdul.JPG">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="css/rouge/github.css">
+    <title>Projects | Abdul Rehman | Professional Portfolio</title>
+</head>
+<body>
+    <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">Abdul Rehman</a>
+            <div class="ms-auto">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <a class="nav-link active" href="/#projects">Projects</a>
+                    <a class="nav-link" href="/resume.html">Resume</a>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Projects List View -->
+    <div id="projects-list-view" style="display: none;"></div>
+    
+    <!-- Project Detail View -->
+    <div id="project-detail-view" style="display: none;"></div>
+
+    <footer class="pt-5 pb-2">
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2024 Abdul Rehman. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="js/data.js"></script>
+    <script src="js/projects-data.js"></script>
+    <script src="js/gallery.js"></script>
+    <script>
+        class ProjectsPage {
+            constructor() {
+                this.urlParams = new URLSearchParams(window.location.search);
+                this.projectId = this.urlParams.get('id');
+                this.currentView = 'list';
+                this.init();
+            }
+
+            init() {
+                if (this.projectId) {
+                    this.showProjectDetail(this.projectId);
+                } else {
+                    this.showProjectsList();
+                }
+                
+                // Handle browser back/forward
+                window.addEventListener('popstate', () => {
+                    location.reload();
+                });
+            }
+
+            showProjectsList() {
+                this.currentView = 'list';
+                document.getElementById('projects-list-view').style.display = 'block';
+                document.getElementById('project-detail-view').style.display = 'none';
+                this.renderProjectsList();
+            }
+
+            showProjectDetail(projectId) {
+                this.currentView = 'detail';
+                document.getElementById('projects-list-view').style.display = 'none';
+                document.getElementById('project-detail-view').style.display = 'block';
+                this.renderProjectDetail(projectId);
+            }
+
+            renderProjectsList() {
+                const projects = window.projectsDataManager.getProjects();
+                const projectsHtml = projects.map(project => this.generateProjectCard(project)).join('');
+                
+                document.getElementById('projects-list-view').innerHTML = `
+                    <div style="background-color: var(--tf-projects-bg-color)" class="bg-gradient py-3">
+                        <div class="container">
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <h2 class="display-4 text-start">All Projects</h2>
+                                </div>
+                            </div>
+                            <div class="vstack gap-3">
+                                ${projectsHtml}
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }
+
+            generateProjectCard(project) {
+                const labels = project.labels.map(label => `<span class="badge bg-secondary me-1">${label}</span>`).join('');
+                
+                return `
+                    <div class="card project-card" data-project-id="${project.id}" style="cursor: pointer;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="${project.image}" class="project-icon" alt="${project.title}">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title text-dark">${project.title}</h5>
+                                    <p class="card-text text-muted">${project.summary}</p>
+                                    <div class="project-labels">
+                                        ${labels}
+                                    </div>
+                                    <p class="card-text"><small class="text-muted">${project.date}</small></p>
+                                    <div class="mt-2">
+                                        <small class="text-primary">Click to view details →</small>
+                                    </div>
+                                    <div class="mt-3">
+                                        ${project.links?.playStore ? `<span class="badge bg-success me-1">Google Play</span>` : ''}
+                                        ${project.links?.appStore ? `<span class="badge bg-primary me-1">App Store</span>` : ''}
+                                        ${project.links?.github ? `<span class="badge bg-dark me-1">GitHub</span>` : ''}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }
+
+            navigateToProject(projectId) {
+                const newUrl = `${window.location.pathname}?id=${projectId}`;
+                window.history.pushState({projectId}, '', newUrl);
+                this.showProjectDetail(projectId);
+            }
+
+            navigateToProjectsList() {
+                const newUrl = window.location.pathname;
+                window.history.pushState({}, '', newUrl);
+                this.showProjectsList();
+            }
+
+            renderProjectDetail(projectId) {
+                const project = window.projectsDataManager.getProject(projectId);
+                
+                if (!project) {
+                    document.getElementById('project-detail-view').innerHTML = `
+                        <div class="container py-5">
+                            <div class="text-center">
+                                <h1>Project Not Found</h1>
+                                <p>The requested project could not be found.</p>
+                                <button class="btn btn-primary" onclick="projectsPage.navigateToProjectsList()">← Back to All Projects</button>
+                            </div>
+                        </div>
+                    `;
+                    return;
+                }
+
+                // Update page title
+                document.title = `${project.title} | Abdul Rehman | Professional Portfolio`;
+                
+                const labels = project.labels.map(label => `<span class="badge bg-secondary me-1 mb-1">${label}</span>`).join('');
+
+                const storeLinks = `
+                    ${project.links?.playStore ? `<a href="${project.links.playStore}" class="btn btn-success me-2 mb-2" target="_blank">
+                        <svg width="16" height="16" fill="currentColor" class="me-2" viewBox="0 0 16 16">
+                            <path d="M2.97 1.35A1 1 0 0 1 4.73 1h6.54a1 1 0 0 1 1.76.35l1.85 3.7a.5.5 0 0 1-.12.624l-1.44 1.44-.866 2.6A1 1 0 0 1 11.51 10H4.49a1 1 0 0 1-.955-.721L2.669 6.64 1.228 5.2a.5.5 0 0 1-.115-.625l1.857-3.71ZM4.73 2a.5.5 0 0 0-.447.276L2.821 5.276 4.09 6.545l.905-2.714A.5.5 0 0 1 5.469 3.5H10.53a.5.5 0 0 1 .474.331l.906 2.714L13.179 5.276 11.717 2.276A.5.5 0 0 0 11.27 2H4.73Z"/>
+                        </svg>
+                        Google Play Store
+                    </a>` : ''}
+                    ${project.links?.appStore ? `<a href="${project.links.appStore}" class="btn btn-primary me-2 mb-2" target="_blank">
+                        <svg width="16" height="16" fill="currentColor" class="me-2" viewBox="0 0 16 16">
+                            <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.624-.319 1.593-.674 2.075-.394.482.28 1.544.67 2.699.72 1.156.049 1.821-.884 2.214-1.474.393-.59.813-1.772.868-2.024.055-.253-.006-.36-.054-.456Z"/>
+                        </svg>
+                        App Store
+                    </a>` : ''}
+                    ${project.links?.github ? `<a href="${project.links.github}" class="btn btn-dark me-2 mb-2" target="_blank">
+                        <svg width="16" height="16" fill="currentColor" class="me-2" viewBox="0 0 16 16">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                        </svg>
+                        GitHub
+                    </a>` : ''}
+                `;
+
+                document.getElementById('project-detail-view').innerHTML = `
+                    <div style="background-color: var(--tf-page-bg-color)" class="py-5">
+                        <div class="container">
+                            <!-- Breadcrumb -->
+                            <nav aria-label="breadcrumb" class="mb-4">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="/">Home</a></li>
+                                    <li class="breadcrumb-item"><a href="#" onclick="projectsPage.navigateToProjectsList()">Projects</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">${project.title}</li>
+                                </ol>
+                            </nav>
+
+                            <!-- Header -->
+                            <div class="row mb-5">
+                                <div class="col-12">
+                                    <h1 class="display-4 mb-3 text-center">${project.title}</h1>
+                                    
+                                    <!-- Screenshots Gallery at Top -->
+                                    ${project.images.length > 0 ? `
+                                    <div class="mb-4">
+                                        <div id="screenshot-gallery-container-header"></div>
+                                    </div>
+                                    ` : `
+                                    <div class="text-center mb-4">
+                                        <img src="${project.image}" class="img-fluid rounded shadow" style="max-height: 300px; object-fit: contain;" alt="${project.title}">
+                                    </div>
+                                    `}
+                                    
+                                    <div class="text-center mb-3">
+                                        ${labels}
+                                    </div>
+                                    <div class="text-center mb-3">
+                                        <small class="text-muted">Released: ${project.date}</small>
+                                    </div>
+                                    <div class="text-center">
+                                        ${storeLinks}
+                                    </div>
+                                </div>
+                            </div>
+
+                            ${project.description ? `
+                            <!-- Detailed Information -->
+                            <div class="row">
+                                <div class="col-md-8 mx-auto">
+                                    <h4 class="mb-3">Development Overview</h4>
+                                    <p class="mb-4">${project.summary}</p>
+
+                                    <h4 class="mb-3">Project Overview</h4>
+                                    <p class="mb-4">${project.description.overview}</p>
+
+                                    <h4 class="mb-3">Key Features</h4>
+                                    <ul class="mb-4">
+                                        ${project.description.features.map(feature => `<li>${feature}</li>`).join('')}
+                                    </ul>
+
+                                    <h4 class="mb-3">Technical Highlights</h4>
+                                    <ul class="mb-4">
+                                        ${project.description.technicalHighlights.map(highlight => `<li>${highlight}</li>`).join('')}
+                                    </ul>
+
+                                    <h4 class="mb-3">Development Challenges</h4>
+                                    <ul class="mb-4">
+                                        ${project.description.challenges.map(challenge => `<li>${challenge}</li>`).join('')}
+                                    </ul>
+                                </div>
+                            </div>
+                            ` : ''}
+
+
+                            <!-- Back Button -->
+                            <div class="row mt-5">
+                                <div class="col-12 text-center">
+                                    <button class="btn btn-outline-primary" onclick="projectsPage.navigateToProjectsList()">← Back to All Projects</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+
+                // Initialize screenshot gallery if images exist
+                setTimeout(() => {
+                    if (project.images && project.images.length > 0) {
+                        const galleryContainer = document.getElementById('screenshot-gallery-container-header');
+                        if (galleryContainer) {
+                            new ScreenshotGallery(galleryContainer, project.images);
+                        }
+                    }
+                }, 100);
+            }
+        }
+
+        // Add click handler for project cards
+        document.addEventListener('click', (e) => {
+            const projectCard = e.target.closest('.project-card');
+            if (projectCard && projectCard.dataset.projectId) {
+                projectsPage.navigateToProject(projectCard.dataset.projectId);
+            }
+        });
+
+        // Initialize the page
+        const projectsPage = new ProjectsPage();
+    </script>
+</body>
+</html>

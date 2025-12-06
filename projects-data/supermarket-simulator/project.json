@@ -1,0 +1,39 @@
+{
+    "id": "supermarket-simulator",
+    "title": "Super Market Simulator",
+    "date": "2024",
+    "labels": ["C#", "Unity", "Optimization", "Performance", "Animations", "GitHub", "Mathematics"],
+    "summary": "In Supermarket Simulator, I designed and implemented responsive controls for seamless player interactions, allowing smooth management of customers, inventory, and store operations. Focused on optimization to ensure flawless performance across all devices, even with high customer flow and complex store layouts.",
+    "description": {
+        "overview": "A comprehensive supermarket management simulation game that challenges players to build and operate their own retail empire. From stocking shelves to managing customer flow, every aspect of supermarket operations is simulated with realistic mechanics.",
+        "features": [
+            "Responsive controls for seamless player interactions",
+            "Dynamic customer AI and behavior patterns",
+            "Comprehensive inventory management system",
+            "Staff hiring and management mechanics",
+            "Store expansion and decoration options",
+            "VIP customer handling and special events",
+            "Competitive multiplayer elements",
+            "Offline progression system"
+        ],
+        "technicalHighlights": [
+            "Optimized for smooth performance across all devices",
+            "Scalable architecture supporting complex store layouts",
+            "Advanced animations and visual feedback systems",
+            "Efficient resource management algorithms",
+            "Dynamic pricing and economic simulation"
+        ],
+        "challenges": [
+            "Balancing gameplay complexity with user accessibility",
+            "Optimizing performance for high customer density scenarios",
+            "Creating engaging progression systems",
+            "Implementing realistic economic simulation"
+        ]
+    },
+    "links": {
+        "playStore": null,
+        "appStore": null,
+        "website": null,
+        "github": null
+    }
+}

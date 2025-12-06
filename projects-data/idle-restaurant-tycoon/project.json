@@ -1,0 +1,38 @@
+{
+    "id": "idle-restaurant-tycoon",
+    "title": "Idle Arcade Restaurant Tycoon Game",
+    "date": "2022",
+    "labels": ["C#", "Unity", "Optimization", "Performance", "Animations", "GitHub", "Mathematics"],
+    "summary": "In this project, I implemented responsive controls for intuitive player interactions, enabling smooth movement for managing customer orders and kitchen tasks. Focused on optimization, ensuring seamless performance across devices, even in complex gameplay scenarios.",
+    "description": {
+        "overview": "An engaging idle restaurant management game where players build and expand their culinary empire. From simple food stalls to multi-story restaurants, manage every aspect of the business while earning profits even when offline.",
+        "features": [
+            "Intuitive tap-and-manage gameplay",
+            "Restaurant expansion and upgrade systems",
+            "Staff management and automation",
+            "VIP customer service mechanics",
+            "Global leaderboards and competitions",
+            "Offline progression and income generation",
+            "Multiple restaurant themes and decorations"
+        ],
+        "technicalHighlights": [
+            "Optimized performance across mobile devices",
+            "Scalable restaurant upgrade architecture",
+            "Efficient AI systems for staff and customers",
+            "Smooth animations and visual feedback",
+            "Robust offline calculation systems"
+        ],
+        "challenges": [
+            "Balancing idle progression with active gameplay",
+            "Creating engaging long-term progression",
+            "Optimizing for various device specifications",
+            "Implementing fair monetization strategies"
+        ]
+    },
+    "links": {
+        "playStore": "https://apkpure.com/idle-restaurant-tycoon-games/com.playspare.hyperidlerestaurant",
+        "appStore": null,
+        "website": null,
+        "github": null
+    }
+}

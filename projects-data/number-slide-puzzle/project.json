@@ -1,0 +1,38 @@
+{
+    "id": "number-slide-puzzle",
+    "title": "Number Slide Puzzle",
+    "date": "2022",
+    "labels": ["C#", "Unity", "Animations", "GitHub", "Mathematics"],
+    "summary": "The Number Slide Puzzle Game offers two modes: Classic and Picture. In Classic mode, players rearrange numbered tiles to form the correct sequence, while in Picture mode, they solve puzzles by arranging image pieces into a complete picture.",
+    "description": {
+        "overview": "A classic sliding puzzle game reimagined with modern design and dual gameplay modes. Test your logical thinking with numbered tiles or enjoy visual puzzles with beautiful pictures.",
+        "features": [
+            "Classic number sliding puzzle mode",
+            "Picture puzzle mode with beautiful imagery",
+            "Multiple difficulty levels (3x3, 4x4, 5x5)",
+            "Smooth drag-and-drop mechanics",
+            "Timer and move counter",
+            "Random puzzle generation",
+            "Hint system for beginners"
+        ],
+        "technicalHighlights": [
+            "Efficient grid-based puzzle logic",
+            "Responsive touch controls",
+            "Smooth tile animations",
+            "Dynamic difficulty scaling",
+            "Optimized for mobile devices"
+        ],
+        "challenges": [
+            "Creating intuitive touch controls",
+            "Implementing efficient puzzle generation algorithms",
+            "Balancing difficulty progression",
+            "Ensuring smooth animations on all devices"
+        ]
+    },
+    "links": {
+        "playStore": null,
+        "appStore": null,
+        "website": null,
+        "github": null
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "abdul-rehman-portfolio",
+  "version": "2.0.0",
+  "description": "Abdul Rehman's Professional Portfolio - Pure JavaScript Version",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 8080 -c-1",
+    "dev": "npx http-server . -p 3000 -c-1",
+    "build": "echo 'Static site - no build needed'",
+    "deploy": "echo 'Deploy to GitHub Pages'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AbdulRehmanUnity/AbdulRehmanUnity.github.io"
+  },
+  "author": "Abdul Rehman",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "keywords": [
+    "portfolio",
+    "javascript",
+    "game-developer",
+    "unity",
+    "mobile-games"
+  ]
+}
